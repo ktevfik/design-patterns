@@ -10,8 +10,8 @@ import java.util.List;
 // Takip edilecek olan yapımızdır.
 // İçerisinde Observer (değişimden etkilenecek) nesneleri tutar.
 public abstract class ObservableProduct {
-    private List<IObserverUser> users;
     protected ProductUpdateMessage message;
+    private List<IObserverUser> users;
 
     public ObservableProduct() {
         users = new ArrayList<IObserverUser>();

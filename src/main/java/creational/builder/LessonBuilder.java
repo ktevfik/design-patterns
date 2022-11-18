@@ -13,7 +13,8 @@ public class LessonBuilder {
     public Boolean discountApplied;
     public String lessonNote;
 
-    public LessonBuilder() {}
+    public LessonBuilder() {
+    }
 
     public LessonBuilder(int id, String name, double price, double discountedPrice, Boolean discountApplied, String lessonNote) {
         this.id = id;

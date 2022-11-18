@@ -9,7 +9,7 @@ public class EmailNotify implements INotify {
     public void notifyUser(User user) {
         System.out.println(
                 "Mail notification sent to " + user.getEmail()
-                + " for user " + user.getName());
+                        + " for user " + user.getName());
     }
 
 }

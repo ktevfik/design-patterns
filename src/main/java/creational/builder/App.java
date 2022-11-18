@@ -5,7 +5,7 @@ package creational.builder;
  * @created 18/11/2022 - 02:50
  */
 public class App {
-public static void main(String[] args) {
+    public static void main(String[] args) {
         Lesson lesson = new LessonBuilder().setId(1)
                 .setName("Java")
                 .setPrice(100)
